@@ -25,7 +25,8 @@ We adapt the time series data to supervised learning algorithms with a different
 
 -- We concatenate the following datas :
 ![image](https://user-images.githubusercontent.com/56879680/197405715-3bf7479b-c399-4193-94e1-a2dffd8d31da.png)
---  We choose the adequate time lag using autocorrelation analysis :
+
+-- We choose the adequate time lag using autocorrelation analysis :
 ![image](https://user-images.githubusercontent.com/56879680/197405841-bda22a74-639b-4f67-b98c-b3db4f8b5e14.png)
 
 
