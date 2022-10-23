@@ -22,10 +22,12 @@ In time series modelling, the predictions over time become less and less accurat
 We adapt the time series data to supervised learning algorithms with a different approach
 * Multivariate forecasting function (i.e. using only the previous time-steps of the electricity price vs. also using other features) using a different number of previous time-steps as the features for the models (3, 10 and 25 previous time-steps for all the used features)
 * We choose the adequate time lags for the price hourly prediction
+
 -- We concatenate the following datas :
 ![image](https://user-images.githubusercontent.com/56879680/197405715-3bf7479b-c399-4193-94e1-a2dffd8d31da.png)
---  We choose the adequate time lag using autocorrelation analysis
-![image](https://user-images.githubusercontent.com/56879680/197405795-cfa3c0ba-90f4-43bd-ab02-a4c88134e9e1.png)
+--  We choose the adequate time lag using autocorrelation analysis :
+![image](https://user-images.githubusercontent.com/56879680/197405841-bda22a74-639b-4f67-b98c-b3db4f8b5e14.png)
+
 
 
 
